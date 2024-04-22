@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #d5d2d2;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 18px 0;
+}
+
+.menu {
+  display: flex;
+}
+
+ul.menu li {
+  list-style: none;
+  margin-right: 40px;
+}
+
+ul.menu li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #000a28;
+}
