@@ -175,7 +175,7 @@ ul.menu li a {
   display: flex;
   gap: 20px;
   width: 30%;
-  border-right: 1px solid rgba(0,0,0,0.7)
+  border-right: 1px solid rgba(0, 0, 0, 0.7);
 }
 
 .phone img {
@@ -184,7 +184,6 @@ ul.menu li a {
 
 .number-description {
   font-size: 12px;
-
 }
 
 .number {
@@ -233,7 +232,7 @@ ul.menu li a {
 .blog {
   max-width: 350px;
   box-shadow: 0 4px 4px 0px rgba(0, 0, 0, 0.3);
-border-radius: 10px;
+  border-radius: 10px;
 }
 
 .blog-body {
@@ -242,7 +241,7 @@ border-radius: 10px;
 
 .blog-title {
   font-size: 26px;
-  color: rgba(0,0,0,0.9)
+  color: rgba(0, 0, 0, 0.9);
 }
 
 .blog-img {
@@ -253,5 +252,64 @@ border-radius: 10px;
 
 .blog-description {
   font-size: 16px;
-  color: rgba(0, 0, 0, 0.8)
+  color: rgba(0, 0, 0, 0.8);
+}
+
+/* footer */
+footer {
+  background-image: url("../asset/image/footer-bg.png"),
+    linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 1));
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-repeat: no-repeat no-repeat;
+  padding: 100px 0;
+  padding-bottom: 20px;
+}
+
+.footer-container {
+  width: 1140px;
+  margin: 0 auto;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.footer-column {
+  width: 25%;
+}
+
+.logo-footer {
+  margin-bottom: 20px;
+}
+
+.footer-title {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.footer-column ul li {
+  list-style-type: none;
+}
+
+.footer-column ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+footer hr {
+  width: 1140px;
+  margin: 0 auto;
+  margin-top: 30px;
+  border: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.copy-right {
+  color: #fff;
+  margin-top: 20px;
+}
+
+.copy-right p {
+  text-align: center;
 }
