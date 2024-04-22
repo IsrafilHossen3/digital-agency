@@ -14,12 +14,12 @@
 }
 
 .btn-primary {
-  background-color: #F52C2C;
+  background-color: #f52c2c;
   color: #fff;
 }
 
 .text-primary {
-  color:  #F52C2C;
+  color: #f52c2c;
 }
 
 nav {
@@ -52,7 +52,8 @@ ul.menu li a {
 
 /* banner styles */
 .banner-container {
-  background-image: url("../asset/image/background.jpg"), linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7));;
+  background-image: url("../asset/image/background.jpg"),
+    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7));
   background-blend-mode: overlay;
   background-repeat: no-repeat;
   height: 90vh;
@@ -78,7 +79,8 @@ ul.menu li a {
 
 /* service section */
 .service-section {
-  background-image: url("../asset/image/footer-bg.png"), linear-gradient(rgba(0, 0, 0, 0.9), rgba(0,0,0,1));
+  background-image: url("../asset/image/footer-bg.png"),
+    linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 1));
   background-blend-mode: overlay;
   background-size: cover;
   background-repeat: repeat;
@@ -87,7 +89,6 @@ ul.menu li a {
   gap: 25px;
   height: 90vh;
   justify-content: space-between;
-
 }
 
 .service-section .column {
@@ -102,7 +103,8 @@ ul.menu li a {
   margin-bottom: 20px;
 }
 
-.section-description, .service-section ol  {
+.section-description,
+.service-section ol {
   color: rgb(190, 207, 208);
   font-size: 16px;
   margin-bottom: 15px;
@@ -126,7 +128,7 @@ ul.menu li a {
 
 .team .ceo {
   color: rgb(190, 207, 208);
-  border-right: 1px solid #F52C2C;
+  border-right: 1px solid #f52c2c;
   padding-right: 30px;
 }
 
@@ -143,7 +145,7 @@ ul.menu li a {
 
 .service-box {
   background-color: #fff;
-  padding: 40px 40px 30px 40px;;
+  padding: 40px 40px 30px 40px;
   width: 200px;
   text-align: center;
   border-radius: 5px;
@@ -152,4 +154,72 @@ ul.menu li a {
 .service-box img {
   width: 80px;
   margin-bottom: 20px;
+}
+
+/* CTA STYLE */
+.cta-container {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  width: 900px;
+  margin: 0 auto;
+  background: #f52c2c;
+  color: #fff;
+  padding: 30px 50px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.phone {
+  display: flex;
+  gap: 20px;
+  width: 30%;
+  border-right: 1px solid rgba(0,0,0,0.7)
+}
+
+.phone img {
+  width: 100px;
+}
+
+.number-description {
+  font-size: 12px;
+
+}
+
+.number {
+  font-size: 24px;
+}
+
+.cta-descripotion {
+  width: 40%;
+}
+
+.btn-cta {
+  width: 20%;
+}
+
+/* blog section */
+.blog {
+  max-width: 1140px;
+  margin: 0 auto;
+  margin-top: 130px;
+}
+
+.blog-header {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.blog-title {
+  color: #000;
+  text-align: center;
+  font-size: 40px;
+
+}
+
+.blog-description {
+  color: #000;
+  font-size: 20px;
 }
